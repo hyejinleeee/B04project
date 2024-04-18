@@ -3,12 +3,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-}
-.container{
+    }
+.container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 40px;
+    margin: 40px;
 }
 .wrapper,
 .single-card {
@@ -19,15 +19,24 @@ body {
 }
 .wrapper {
     perspective: 900px;
-    
-    
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 60px 60px 60px 60px;  
 }
 .single-card {
     text-align: center;
     transition: all 1.5s cubic-bezier(0.7,-.5,0.3,1.8);
     transform-style: preserve-3d;
 }
-.wrapper:hover .single-card{
+.card1:hover {
+    transform: rotateY(180deg);
+}
+
+.card2:hover {
+    transform: rotateY(180deg);
+}
+
+.card3:hover {
     transform: rotateY(180deg);
 }
 .front,
@@ -40,20 +49,30 @@ body {
 }
 .front {
     cursor: pointer;
-    height: 100%;
-    background-image: url("../img/isfp.png");
-    background-color: rgb(250, 249, 245);
+    height: 100%;   
+    background-color: white;
     backface-visibility: hidden;
     border-radius: 50px;
-    background-size: cover;
+    border: solid 1px;  
+    background-size: contain;
     background-position: center center;
+    background-repeat: no-repeat;
+}
+.front1{
+    background-image: url(img/isfp.png);
+}
+.front2{
+    background-image: url(img/intp.png);
+}
+.front3{
+    background-image: url(img/istp.png);
 }
 .back {
     transform: rotateY(180deg);
     position: absolute;
     border-radius: 50px;
     height: 450px;
-    background: whitesmoke;
+    background: white;
 }
 .content{
     padding-top: 25%;
@@ -72,5 +91,4 @@ body {
 .socials i {
     font-size: 30px;
     margin: 0 10px;
-
 }
