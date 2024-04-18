@@ -33,7 +33,7 @@ hr {
     margin: 0 auto;   
 }
 
-.팀소개영역 {  
+.teamcon {  
     background-color: #fff;
     width: 900px;
     padding: 50px 40px;
@@ -41,6 +41,7 @@ hr {
     border-radius: 10px;
     border: 1px solid #626262;
     box-shadow: 2px 5px 5px gray;
+    margin: 0 auto;
 }
 
 .팀소개영역 .co {
