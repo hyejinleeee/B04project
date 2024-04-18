@@ -4,10 +4,10 @@ body {
     background-size: cover; 
     background-attachment: fixed;
     flex-direction: column;
-
+    font-family: "nanum-gothic-coding",sans-serif;
     font-size: 20px
 }
-
+  
 hr.t {
     border : 0px;
     border-top : 2px solid #c0c0c0;
