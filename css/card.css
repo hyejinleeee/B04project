@@ -1,113 +1,120 @@
 body {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    padding: 40px;
-    margin: 40px;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  margin: 40px;
 }
 
 .wrapper,
 .single-card {
-    height: 450px;
-    max-width: 300px;
-    margin: auto;
-    position: relative;
+  height: 450px;
+  max-width: 300px;
+  margin: auto;
+  position: relative;
 }
 
 .wrapper {
-    perspective: 900px;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 60px 60px 60px 60px;  
+  perspective: 900px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 60px 60px 60px 60px;
 }
 
 .single-card {
-    text-align: center;
-    transition: all 1.5s cubic-bezier(0.7,-.5,0.3,1.8);
-    transform-style: preserve-3d;
+  text-align: center;
+  transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+  transform-style: preserve-3d;
 }
 
 .card1:hover {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .card2:hover {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .card3:hover {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .front,
 .back {
-    width: 300px;
-    position: relative;
-    top: 0;
-    left: 0;
-    backface-visibility: hidden;
+  width: 300px;
+  position: relative;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
 }
 
 .front {
-    cursor: pointer;
-    height: 100%;   
-    background-color: white;
-    backface-visibility: hidden;
-    border-radius: 50px;
-    border: solid 1px;  
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
+  cursor: pointer;
+  height: 100%;
+  background-color: white;
+  backface-visibility: hidden;
+  border-radius: 50px;
+  border: solid 1px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
-.front1{
-    background-image: url(../img/isfp.png);
-    background-size: 85%;
-
+.front1 {
+  background-image: url(../img/isfp.png);
+  background-size: 85%;
 }
 
-.front2{
-    background-image: url(../img/intp.png);
+.front2 {
+  background-image: url(../img/intp.png);
 }
 
-.front3{
-    background-image: url(../img/istp.png);
+.front3 {
+  background-image: url(../img/istp.png);
 }
 
 .back {
-    transform: rotateY(180deg);
-    position: absolute;
-    border: 1px solid ;  
-    border-radius: 50px;
-    height: 450px;
-    background: white;
+  transform: rotateY(180deg);
+  position: absolute;
+  border: 1px solid;
+  border-radius: 50px;
+  height: 450px;
+  background: white;
 }
 
-.content{
-    padding-top: 25%;
+.content {
+  padding-top: 25%;
 }
 
 .content h2 {
-    font-size: 35px;
-    margin: 0;
-    font-weight: 300;
+  font-size: 35px;
+  margin: 0;
+  font-weight: 300;
 }
 
 .content h4 {
-    margin: 0;
+  margin: 0;
 }
 
 .socials {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .socials i {
-    font-size: 30px;
-    margin: 0 10px;
+  font-size: 30px;
+  margin: 0 10px;
+}
+.yellowname {
+  color: rgb(229, 200, 46);
+  font-weight: 900;
+}
+.purplename {
+  color: rgb(120, 93, 136);
+  font-weight: 900;
 }
