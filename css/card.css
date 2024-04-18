@@ -41,7 +41,7 @@ body {
 .front {
     cursor: pointer;
     height: 100%;
-    background-image: url(img/isfp.png);
+    background-image: url("../img/isfp.png");
     background-color: rgb(250, 249, 245);
     backface-visibility: hidden;
     border-radius: 50px;

@@ -1,0 +1,31 @@
+body {
+    height: 2200px;
+    background-image: url("../img/backgroundimg.jpg"); 
+    background-size: cover; 
+    background-attachment: fixed;
+    flex-direction: column;
+}
+
+.inner {
+    position: absolute;
+    top: 100px;
+    align-content: center;
+}
+
+.inner .title {
+    width: 700px;
+    height: 150px;
+    background-image: url("../img/teamName.png");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    margin: 0 auto;   
+}
+
+.팀소개영역 {  
+    background-color: #fff;
+    width: 900px;
+    padding: 100px;
+    margin: 20px 0;
+    border-radius: 10px;
+    border: 1px solid #6c6c6c;
+}
