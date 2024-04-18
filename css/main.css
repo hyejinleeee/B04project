@@ -4,6 +4,18 @@ body {
     background-size: cover; 
     background-attachment: fixed;
     flex-direction: column;
+
+    font-size: 20px
+}
+
+hr.t {
+    border : 0px;
+    border-top : 2px solid #626262;
+}
+
+hr {
+    border : 0px;
+    border-top : 1px solid #c0c0c0;
 }
 
 .inner {
@@ -24,8 +36,13 @@ body {
 .팀소개영역 {  
     background-color: #fff;
     width: 900px;
-    padding: 100px;
-    margin: 20px 0;
+    padding: 50px 40px;
+    margin: 20px;
     border-radius: 10px;
-    border: 1px solid #6c6c6c;
+    border: 1px solid #626262;
+    box-shadow: 2px 5px 5px gray;
+}
+
+.팀소개영역 .co {
+    margin: 50px 0;
 }
