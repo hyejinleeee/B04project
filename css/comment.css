@@ -9,14 +9,22 @@
       grid-template-columns: 15fr 1fr;
       height: 60px;
       background-color:rgb(241, 232, 232); 
+      border: 1px solid #000;
     }
 
     .mycards {
       width: 900px;
-      margin: 0px auto 0px auto;
+      margin: 10px auto 100px auto;
       height: 300px;
       overflow: auto;
       background-color: rgb(241, 232, 232);
+      border: 1px solid #000;
+    
     }
 
-   
+   .megtitle{
+    text-align: center;
+    width: 900px;
+    margin: 0px auto 0px auto;
+    border:10px solid 0px;
+   }

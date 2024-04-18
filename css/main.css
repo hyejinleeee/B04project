@@ -10,7 +10,7 @@ body {
 
 hr.t {
     border : 0px;
-    border-top : 2px solid #626262;
+    border-top : 2px solid #c0c0c0;
 }
 
 hr {
@@ -39,7 +39,7 @@ hr {
     padding: 50px 40px;
     margin: 20px;
     border-radius: 10px;
-    border: 1px solid #626262;
+    border: 1px solid black;
     box-shadow: 2px 5px 5px gray;
     margin: 0 auto;
 }
